@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background: #aaa;
+}
+
+.board {
+    background: #ccc;
+    padding: 20px;
+}
+
+.column-container {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    background: #ccc;
+}
+
+.column {
+    min-width: 200px; 
+    background: #aaa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: #555 -1px -3px 3px;
+}
+
